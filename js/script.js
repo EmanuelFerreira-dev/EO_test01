@@ -328,6 +328,18 @@ function initialize() {
 //=======================================================
 // 				Efectos de Section Games
 //=======================================================
+const imgGames = document.querySelectorAll('.img-games')
+const infoGames = document.querySelectorAll('.info-games')
+
+imgGames.forEach(img => {
+    img.addEventListener('click', (event) => {
+        if (event.target) {
+            infoGames.forEach(info => {
+                info.classList.add('efectt-games')
+            })
+        }
+    })
+})
 
 
 //=======================================================
