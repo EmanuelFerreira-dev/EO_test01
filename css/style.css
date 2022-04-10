@@ -9,7 +9,7 @@ html {
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #fffdf4;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -21,7 +21,7 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Quattrocento Sans", sans-serif;
-  color: #afbac4;
+  color: #fde883;
 }
 
 p {
@@ -34,12 +34,12 @@ p {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #57cbcc;
+  background: #fce05c;
 }
 
 ::selection {
   color: #fff;
-  background: #57cbcc;
+  background: #fce05c;
 }
 
 ol,
@@ -99,7 +99,7 @@ a:hover {
 }
 
 .btn-transparent:hover, .btn-transparent:focus {
-  background-color: #57cbcc;
+  background-color: #fce05c;
   border: 1px solid transparent;
   color: #fff;
 }
@@ -153,7 +153,7 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
+  background-color: #fce05c;
 }
 
 .color {
@@ -229,11 +229,11 @@ a:hover {
 
 a:focus,
 a:hover {
-  color: #57cbcc;
+  color: #fce05c;
 }
 
 .btn-main {
-  background: #57cbcc;
+  background: #fce05c;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -318,7 +318,7 @@ a:hover {
 .sk-cube-grid .sk-cube {
   width: 33%;
   height: 33%;
-  background-color: #57cbcc;
+  background-color: #fce05c;
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
   animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
@@ -407,7 +407,7 @@ a:hover {
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #fce05c;
 }
 
 .title p {
@@ -452,7 +452,7 @@ a:hover {
 }
 
 .header-bradcrumb a:hover {
-  color: #57cbcc;
+  color: #fce05c;
 }
 
 .slick-slide {
@@ -503,7 +503,7 @@ a:hover {
 }
 
 .pagination li a:hover, .pagination li a.active {
-  background: #57cbcc;
+  background: #fce05c;
   color: #fff;
 }
 
@@ -564,7 +564,7 @@ a:hover {
     text-decoration: none;
     font-weight: 400;
     font-family: "Quattrocento Sans", sans-serif;
-    color: #afbac4;
+    color: #fef4c7;
 }
 .accordion .item .item-header {
     border-bottom: none;
@@ -585,7 +585,7 @@ a:hover {
 .accordion .item .item-header h2 i {
     float: right;
     font-size: 30px;
-    color: #fce05c;
+    color: #fef4c7;
     width: 60px;
     height: 40px;
     display: flex;
@@ -627,17 +627,17 @@ button.btn.btn-link i {
 }
 
 .navigation .navigation-menu li.active a {
-  color: #57cbcc;
+  color: #d87a68;
 }
 
 .navigation .navigation-menu li a {
   font-size: 16px;
-  color: #737f8a;
+  color: #fdfdfd;
 }
 
 .navigation .navigation-menu li a:hover, .navigation .navigation-menu li a:focus {
   background: transparent;
-  color: #57cbcc;
+  color: #d87a68;
 }
 
 .navbar-toggle {
@@ -686,7 +686,7 @@ button.btn.btn-link i {
   line-height: 60px;
   font-size: 20px;
   margin-left: 3px;
-  color: #57cbcc;
+  color: #fce05c;
 }
 
 .hero-area .block h1 {
@@ -765,7 +765,7 @@ button.btn.btn-link i {
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #57cbcc;
+  border-bottom: 2px solid #fce05c;
 }
 
 .about .block:hover .icon-box {
@@ -836,7 +836,7 @@ button.btn.btn-link i {
 
 .about-2 .content-block .media i {
   font-size: 30px;
-  color: #57cbcc;
+  color: #d87a68;
 }
 
 .about-2 .content-block .media h4 {
@@ -909,12 +909,12 @@ button.btn.btn-link i {
 .contact-form input:hover,
 .contact-form textarea:hover,
 #contact-submit:hover {
-  border-color: #57cbcc;
+  border-color: #fce05c;
 }
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: #fce05c;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -1006,7 +1006,7 @@ button.btn.btn-link i {
 }
 
 .price-title h3 {
-  color: #57cbcc;
+  color: #fce05c;
   margin: 0 0 10px;
   text-transform: uppercase;
 }
@@ -1017,7 +1017,7 @@ button.btn.btn-link i {
 }
 
 .price-title .value {
-  color: #57cbcc;
+  color: #fce05c;
   font-size: 30px;
 }
 
@@ -1061,8 +1061,8 @@ button.btn.btn-link i {
 }
 
 .portfolio-filter button.active {
-  border: 1px solid #57cbcc;
-  color: #57cbcc;
+  border: 1px solid #fce05c;
+  color: #fce05c;
 }
 
 .portfolio-items-wrapper .mix {
@@ -1126,7 +1126,7 @@ button.btn.btn-link i {
 }
 
 .portfolio-block .caption .search-icon {
-  background: #57cbcc;
+  background: #fce05c;
   width: 50px;
   height: 50px;
   color: #fff;
@@ -1172,13 +1172,13 @@ button.btn.btn-link i {
 
 .service-2 .service-item:hover i {
   background: #fff;
-  color: #57cbcc;
+  color: #fce05c;
 }
 
 .service-2 .service-item i {
   font-size: 30px;
   display: inline-block;
-  background: #57cbcc none repeat scroll 0 0;
+  background: #fce05c none repeat scroll 0 0;
   border-radius: 30px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -1211,7 +1211,7 @@ button.btn.btn-link i {
 }
 
 .skill-bar .progress .progress-bar {
-  background: #57cbcc;
+  background: #fce05c;
 }
 
 /*=================================================================
@@ -1290,7 +1290,7 @@ button.btn.btn-link i {
 
 .member-photo .mask ul li a:hover {
   background-color: #fff;
-  color: #57cbcc;
+  color: #fce05c;
   border: 1px solid transparent;
 }
 
@@ -1371,7 +1371,7 @@ button.btn.btn-link i {
 
 .owl-controls .owl-page.active span,
 .owl-controls .owl-page:hover span {
-  background-color: #57cbcc;
+  background-color: #fce05c;
   border: 2px solid transparent;
 }
 
@@ -1465,7 +1465,7 @@ button.btn.btn-link i {
 }
 
 .post-meta a {
-  color: #57cbcc;
+  color: #fce05c;
 }
 
 .post-meta > span {
@@ -1526,7 +1526,7 @@ button.btn.btn-link i {
 }
 
 .next-prev a:hover {
-  color: #57cbcc;
+  color: #fce05c;
 }
 
 .next-prev .prev-post i {
@@ -1549,7 +1549,7 @@ button.btn.btn-link i {
 }
 
 .social-profile ul li a i:hover {
-  color: #57cbcc;
+  color: #fce05c;
 }
 
 .comments-section {
@@ -1597,7 +1597,7 @@ button.btn.btn-link i {
 }
 
 .comment-wrap .media .media-heading a {
-  color: #57cbcc;
+  color: #fce05c;
   font-size: 13px;
 }
 
@@ -1622,7 +1622,7 @@ button.btn.btn-link i {
 
 .comment-reply-form input:focus, .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid #57cbcc;
+  border: 1px solid #fce05c;
 }
 
 .comment-reply-form textarea, .comment-reply-form .btn-main {
@@ -1645,7 +1645,7 @@ button.btn.btn-link i {
 }
 
 .social-icon ul li:hover a {
-  background-color: #57cbcc;
+  background-color: #fce05c;
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
 }
@@ -1721,8 +1721,8 @@ button.btn.btn-link i {
 }
 
 #scrollUp:hover {
-  background-color: #57cbcc;
-  border: 1px solid #57cbcc;
+  background-color: #fce05c;
+  border: 1px solid #fce05c;
 }
 
 /*=================================================================
@@ -2143,4 +2143,14 @@ blockquote {
   margin: 0;
 }
 
-/*# sourceMappingURL=maps/style.css.map */
+/*=========================
+    Section Games
+===========================*/
+
+.change-games {
+  opacity: 0.4;
+}
+
+.info-games p {
+  font-family: "Quattrocento Sans", sans-serif;
+}
