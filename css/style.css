@@ -104,7 +104,7 @@ a:hover {
 .btn-transparent:hover, .btn-transparent:focus {
   background-color: #fce05c;
   border: 1px solid transparent;
-  color: #fff;
+  color: #000;
 }
 
 .form-control {
@@ -279,7 +279,7 @@ a:hover {
 }
 
 .btn:focus {
-    color: #ddd;
+    color: #000;
 }
 
 #home {
@@ -772,6 +772,66 @@ button.btn.btn-link i {
     width: 100%;
     position: absolute;
     z-index: -1;
+}
+
+/***** Modal *****/
+
+.modal-content {
+	background: #3a3a3a;
+	-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+	border: 0;
+	text-align: left;
+}
+
+.modal-header {
+	padding: 25px 25px 15px 25px;
+	background: #333;
+	border: 0;
+	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+	color: #888;
+}
+
+.modal-header .close {
+	font-size: 36px;
+	color: #eee;
+	font-weight: 300;
+	text-shadow: none;
+	opacity: 1;
+}
+
+.modal-title {
+	margin-bottom: 10px;
+	line-height: 30px;
+	color: #eee;
+}
+
+.modal-body {
+	padding: 25px 25px 30px 25px;
+	background: #3a3a3a;
+	text-align: left;
+	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+}
+
+.modal-body img {
+	margin-bottom: 15px;
+}
+
+.modal-body form textarea {
+	height: 100px;
+}
+
+.modal-body form .input-error {
+	border-color: #399599;
+}
+
+.btn-primary{
+    border-color: #575756;
+}
+
+.btn-primary:hover{
+    background-color: #fce05c;
+    border-color: #575756;
+    color: #000;
 }
 
 
