@@ -612,6 +612,11 @@ button.btn.btn-link i {
     transition: 0.5s;
 }
 
+@media (max-width: 480px) {
+    .accordion .item .item-header h2 button {
+        white-space: normal;
+    }
+}
 
 /*=================================================================
   Navigation
