@@ -238,7 +238,7 @@ a:hover {
 
 .btn-main {
     background: #fce05c;
-    color: #fff;
+    color: #242930;
     display: inline-block;
     font-size: 14px;
     letter-spacing: 1px;
@@ -1019,6 +1019,7 @@ button.btn.btn-link i {
     padding: 12px 0;
     width: 100%;
     margin: 0;
+    color: #242930;
 }
 
 .google-map #map-canvas {
